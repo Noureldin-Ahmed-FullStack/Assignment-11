@@ -86,7 +86,7 @@ function display() {
 }
 
 function init(){
-    demo.open('get', 'http://api.weatherapi.com/v1/forecast.json?key=a8f4ff4038574f749e1213006231408&q='+searchQuery+'&days=3')
+    demo.open('get', 'https://api.weatherapi.com/v1/forecast.json?key=a8f4ff4038574f749e1213006231408&q='+searchQuery+'&days=3')
     demo.send()
 }
 init()
