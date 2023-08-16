@@ -16,13 +16,13 @@ demo.addEventListener('readystatechange', function () {
         // console.log(arr.forecast.forecastday[0].day.condition.icon)
         // console.log(arr.current.wind_dir)
         for (let index = 0; index < 3; index++) {
-            console.log(arr.location.name)
-            console.log(arr.forecast.forecastday[index].day.avgtemp_c)
-            console.log(arr.forecast.forecastday[index].day.avghumidity)
-            console.log(arr.forecast.forecastday[index].day.condition.text)
-            console.log(arr.current.wind_dir)
-            console.log(arr.current.wind_kph)
-            console.log(arr.forecast.forecastday[index].day.condition.icon)
+            // console.log(arr.location.name)
+            // console.log(arr.forecast.forecastday[index].day.avgtemp_c)
+            // console.log(arr.forecast.forecastday[index].day.avghumidity)
+            // console.log(arr.forecast.forecastday[index].day.condition.text)
+            // console.log(arr.current.wind_dir)
+            // console.log(arr.current.wind_kph)
+            // console.log(arr.forecast.forecastday[index].day.condition.icon)
             var character = arr.current.wind_dir
             var dir
             switch (character) {
