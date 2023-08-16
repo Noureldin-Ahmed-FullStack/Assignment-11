@@ -52,7 +52,7 @@ demo.addEventListener('readystatechange', function () {
 
             container += `
                 
-    <div class=" border bg-light col-sm-4">
+    <div class=" border bg-light col-md-4">
     <div class="bg-primary ">
       <h2 class="text-light text-center py-3">${day}</h2>
     </div>
